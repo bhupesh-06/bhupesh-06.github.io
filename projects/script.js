@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "Projects | Portfolio Bhupesh Dubey";
-        $("#favicon").attr("href", "../assets/images/favicon.png?v=3");
+        $("#favicon").attr("href", "../assets/images/favicon.png?v=4");
     } else {
         document.title = "Come Back To Bhupesh's Portfolio";
         $("#favicon").attr("href", "../assets/images/favhand.png");
