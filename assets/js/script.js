@@ -124,7 +124,7 @@ document.addEventListener('visibilitychange', function () {
 // typed js effect
 var typed = new Typed(".typing-text", {
     strings: [
-        "AWS & GCP Cloud Infrastructure",
+        "AWS & GCP Cloud Infrastructure and DevOps",
         "Kubernetes (EKS & GKE) & Docker",
         "Terraform & Ansible Automation",
         "CI/CD (Jenkins, GitLab & Argo CD)",
