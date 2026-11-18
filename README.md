@@ -4,7 +4,7 @@ Personal portfolio website for **Bhupesh Dubey** (Senior DevOps Engineer — AWS
 
 ## 🌐 Live Portfolio
 
-👉 **https://codecraftlab-dev.github.io/portfollio/**
+👉 **https://bhupesh-06.github.io/Portfollio/** *(or **https://bhupesh-06.github.io/** if repo is named `bhupesh-06.github.io`)*
 
 ## 🚀 Run Locally
 
