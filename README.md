@@ -18,7 +18,7 @@ Then open http://localhost:8080 in your browser.
 
 ## 📌 Highlights
 
-- **Hero & Custom Portrait**: Circular portrait (`assets/images/hero.png`) and favicon (`assets/images/favicon.png`) paired with interactive Particle.js & Typed.js animations.
+- **Hero & Custom Face-Matched Avatar**: Custom 3D developer avatar modeled directly on Bhupesh's real portrait (`assets/images/hero.png`) and circular favicon (`assets/images/favicon.png`) paired with interactive Particle.js & Typed.js animations.
 - **About & Resume**: Corporate portrait (`assets/images/profile2.jpg`) with direct resume access via [Google Drive](https://drive.google.com/file/d/1BZEDiVlKNoDuf2faDVnJTK79sSjsFn8Y/view?usp=sharing).
 - **Technical Skills**: 20 DevOps, Cloud, CI/CD, Container, Observability, and Security skills rendered dynamically from `skills.json` using crisp local SVG icons (`assets/images/skills/`).
 - **Featured Real-World Projects**: Filterable showcase (`projects/projects.json` & `projects/index.html`) covering **BuddyLoan** (FinTech), **Ananta Messaging** (MarTech Ads), **Whistle — Loop & Feed** (MarTech SaaS), **Dailyhunt** & **Josh** (Hyper-Scale Media), **Sparksation.ai** (AI Platform), and National 1st-Place Research.
