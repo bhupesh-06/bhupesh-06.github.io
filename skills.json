@@ -1,0 +1,82 @@
+[
+  {
+    "name": "AWS Cloud",
+    "icon": "./assets/images/skills/aws.svg"
+  },
+  {
+    "name": "Google Cloud & GKE",
+    "icon": "./assets/images/skills/gcp.svg"
+  },
+  {
+    "name": "Kubernetes (EKS)",
+    "icon": "./assets/images/skills/kubernetes.svg"
+  },
+  {
+    "name": "Docker",
+    "icon": "./assets/images/skills/docker.svg"
+  },
+  {
+    "name": "Terraform (IaC)",
+    "icon": "./assets/images/skills/terraform.svg"
+  },
+  {
+    "name": "Jenkins CI/CD",
+    "icon": "./assets/images/skills/jenkins.svg"
+  },
+  {
+    "name": "Argo CD",
+    "icon": "./assets/images/skills/argocd.svg"
+  },
+  {
+    "name": "Bitbucket Pipelines",
+    "icon": "./assets/images/skills/bitbucket.svg"
+  },
+  {
+    "name": "GitHub Webhooks",
+    "icon": "./assets/images/skills/github.svg"
+  },
+  {
+    "name": "GitLab CI & Runners",
+    "icon": "./assets/images/skills/gitlab.svg"
+  },
+  {
+    "name": "Grafana",
+    "icon": "./assets/images/skills/grafana.svg"
+  },
+  {
+    "name": "AWS CloudWatch",
+    "icon": "./assets/images/skills/cloudwatch.svg"
+  },
+  {
+    "name": "AWS Lambda & S3",
+    "icon": "./assets/images/skills/lambda.svg"
+  },
+  {
+    "name": "SentinelOne EDR",
+    "icon": "./assets/images/skills/sentinelone.svg"
+  },
+  {
+    "name": "Wazuh SIEM",
+    "icon": "./assets/images/skills/wazuh.svg"
+  },
+  {
+    "name": "LDAP & IAM",
+    "icon": "./assets/images/skills/ldap.svg"
+  },
+  {
+    "name": "Linux (Ubuntu)",
+    "icon": "./assets/images/skills/ubuntu.svg"
+  },
+  {
+    "name": "Bash Scripting",
+    "icon": "./assets/images/skills/bash.svg"
+  },
+  {
+    "name": "Python",
+    "icon": "./assets/images/skills/python.svg"
+  },
+  {
+    "name": "PHP",
+    "icon": "./assets/images/skills/php.svg"
+  }
+]

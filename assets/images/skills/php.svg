@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48" height="48">
+    <ellipse cx="32" cy="32" rx="28" ry="17" fill="#777BB4"/>
+    <text x="32" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-weight="900" font-size="19" fill="#FFFFFF">php</text>
+  </svg>

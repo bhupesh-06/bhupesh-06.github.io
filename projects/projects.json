@@ -1,0 +1,72 @@
+[
+  {
+    "name": "BuddyLoan — FinTech",
+    "desc": "High-scale digital lending & loan aggregator platform. Managed AWS/GCP cloud infrastructure, EKS microservices, Terraform IaC, Jenkins/Argo CD CI/CD, and zero-trust security.",
+    "image": "buddyloan",
+    "category": "fintech",
+    "links": {
+      "view": "https://www.buddyloan.com",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Ananta Messaging — MarTech (Ads)",
+    "desc": "Enterprise AI-driven omnichannel ad & messaging platform (SMS, WhatsApp, RCS). Engineered auto-scaling cloud workloads, CI/CD pipelines, and real-time Grafana/CloudWatch SRE.",
+    "image": "ananta-messaging",
+    "category": "martech",
+    "links": {
+      "view": "https://whistle.mobi",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Whistle — Loop & Feed",
+    "desc": "Cloud MarTech SaaS for performance campaign tracking & ad feed delivery. Automated multi-env Terraform provisioning, CI/CD approval gates, and zero-downtime releases.",
+    "image": "whistle-loop-feed",
+    "category": "martech",
+    "links": {
+      "view": "https://whistle.mobi",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Dailyhunt",
+    "desc": "India's leading local-language news & content platform (100M+ users, Verse Innovations). Driving hyper-scale cloud reliability, Kubernetes orchestration, and GitOps automation.",
+    "image": "dailyhunt",
+    "category": "media",
+    "links": {
+      "view": "https://www.dailyhunt.in",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Josh",
+    "desc": "Leading short-video social platform in India (Verse Innovations). Scaling production cloud infrastructure, containerized media workloads, CI/CD pipelines, and observability.",
+    "image": "josh",
+    "category": "media",
+    "links": {
+      "view": "https://myjosh.in",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Sparksation.ai",
+    "desc": "Cloud-native AI & intelligent automation platform. Architected Docker/Kubernetes deployments, automated CI/CD workflows, Infrastructure as Code, and production monitoring.",
+    "image": "sparksation-ai",
+    "category": "ai",
+    "links": {
+      "view": "https://sparksation.ai",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  },
+  {
+    "name": "Automatic Car Detection & Rescue",
+    "desc": "Awarded 1st Place among 200+ participants at the National-Level Online Student Research Paper Conference for automated accident detection & emergency rescue dispatch.",
+    "image": "car-rescue-system",
+    "category": "ai",
+    "links": {
+      "view": "https://www.linkedin.com/in/bhupesh06",
+      "resume": "Bhupesh_Dubey_CV.pdf"
+    }
+  }
+]
