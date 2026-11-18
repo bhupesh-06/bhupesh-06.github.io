@@ -239,12 +239,14 @@ header .navbar ul li a:hover {
   color: #000;
   font-weight: 600;
   padding: 1rem 0;
+  text-transform: none;
 }
 .home .content p span {
   font-size: 2.5rem;
   color: rgb(148, 8, 8);
   font-weight: 600;
   padding: 1rem 0;
+  text-transform: none;
 }
 .home .btn {
   margin-top: 1rem;
@@ -390,6 +392,7 @@ header .navbar ul li a:hover {
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
+  text-transform: none;
 }
 .about .row .content p {
   font-size: 1.5rem;
@@ -561,6 +564,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
+  text-transform: none;
 }
 .education .box-container {
   display: flex;
@@ -1137,7 +1141,7 @@ header .navbar ul li a:hover {
   width: 100%;
   background: #fff;
   border-radius: 1.5rem;
-  margin: 2rem 5rem;
+  margin: 2rem auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
@@ -1396,6 +1400,7 @@ form .button-area {
   font-weight: 600;
   color: #fff;
   border-top: 0.1rem solid #fff3;
+  text-transform: none;
 }
 .footer .credit a {
   color: #ffae00;

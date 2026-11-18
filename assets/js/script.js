@@ -125,10 +125,10 @@ document.addEventListener('visibilitychange', function () {
 var typed = new Typed(".typing-text", {
     strings: [
         "AWS & GCP Cloud Infrastructure",
-        "CI/CD Pipelines (Jenkins & Argo CD)",
-        "Kubernetes (EKS) & Docker",
-        "Terraform (Infrastructure as Code)",
-        "Cloud Security & Observability"
+        "Kubernetes (EKS & GKE) & Docker",
+        "Terraform & Ansible Automation",
+        "CI/CD (Jenkins, GitLab & Argo CD)",
+        "ClickHouse, Cloud Security & SRE"
     ],
     loop: true,
     typeSpeed: 45,
@@ -139,7 +139,7 @@ var typed = new Typed(".typing-text", {
 async function fetchData(type = "skills") {
     let response = type === "skills"
         ? await fetch("./skills.json?v=2")
-        : await fetch("./projects/projects.json");
+        : await fetch("./projects/projects.json?v=2");
     const data = await response.json();
     return data;
 }

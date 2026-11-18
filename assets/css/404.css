@@ -45,7 +45,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.7rem 10%;
+  padding: 1.7rem 7%;
   height: 6.5rem;
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.3);
@@ -166,10 +166,12 @@ header .navbar ul li a:hover{
 .msg h3{
     font-size: 4rem;
     font-weight: 700;
+    text-transform: none;
 }
 .msg p{
     font-size: 1.5rem;
     font-weight: 600;
+    text-transform: none;
 }
 .wrapper h1{
   font-size:80px;
@@ -283,6 +285,7 @@ header .navbar ul li a:hover{
   font-weight: 600;
   color: #fff;
   border-top: .1rem solid #fff3;
+  text-transform: none;
 }
 .footer .credit a{
   color: #ffae00;

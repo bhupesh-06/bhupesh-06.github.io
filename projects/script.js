@@ -29,7 +29,7 @@ document.addEventListener('visibilitychange', function () {
 
 // fetch projects start
 function getProjects() {
-    return fetch("./projects.json")
+    return fetch("./projects.json?v=2")
         .then(response => response.json())
         .then(data => data);
 }
@@ -40,7 +40,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-            <div class="box tilt" style="width: 380px; margin: 1rem">
+            <div class="box tilt" style="width: 380px; max-width: calc(100vw - 3.2rem); margin: 1rem">
                 <img draggable="false" src="../assets/images/projects/${project.image}.png" alt="${project.name}" />
                 <div class="content">
                     <div class="tag">
