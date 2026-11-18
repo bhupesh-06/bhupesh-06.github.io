@@ -288,12 +288,15 @@ header .navbar ul li a:hover {
 }
 .socials .social-icons li {
   display: inline-block;
+  vertical-align: middle;
   margin-bottom: 14px;
 }
 .social-icons a {
   font-size: 2rem;
-  display: inline-block;
-  line-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
   color: #00d9ff;
   background-color: #09011b;
   width: 44px;
@@ -305,6 +308,11 @@ header .navbar ul li a:hover {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+.social-icons a .cv-icon {
+  width: 21px;
+  height: 21px;
+  display: block;
+}
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
@@ -313,6 +321,10 @@ header .navbar ul li a:hover {
 }
 .social-icons a.github:hover {
   background-color: #0e0e0e;
+}
+.social-icons a.resume-btn:hover {
+  background-color: #ff7b00;
+  color: #fff;
 }
 .social-icons a.twitter:hover {
   background-color: #00aced;
@@ -1376,7 +1388,10 @@ form .button-area {
 .footer .box-container .box .share a {
   height: 4rem;
   width: 4rem;
-  padding: 1rem;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-radius: 5rem;
   font-size: 1.7rem;

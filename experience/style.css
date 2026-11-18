@@ -394,7 +394,10 @@ header .navbar ul li a:hover{
 .footer .box-container .box .share a{
   height: 4rem;
   width: 4rem;
-  padding: 1rem;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-radius: 5rem;
   font-size: 1.7rem;
