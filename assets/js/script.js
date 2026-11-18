@@ -131,6 +131,7 @@ var typed = new Typed(".typing-text", {
         "ClickHouse, Cloud Security & SRE"
     ],
     loop: true,
+    showCursor: false,
     typeSpeed: 45,
     backSpeed: 25,
     backDelay: 1200,
