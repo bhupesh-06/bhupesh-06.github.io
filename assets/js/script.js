@@ -110,81 +110,10 @@ $(document).ready(function () {
 
 });
 
-// Interactive Hero Avatar "Say Hi" Wave Controller
-const heroGreetings = [
-    "Hi! I'm Bhupesh",
-    "Welcome to my portfolio!",
-    "Let's build on Cloud & K8s!",
-    "Great to have you here!"
-];
-let greetingIdx = 0;
-let waveStopTimer = null;
-let bubbleHideTimer = null;
-let lastWaveAt = 0;
-
-function triggerHeroWave(customMessage, force = false) {
-    const wrapper = document.getElementById("heroAvatarWrapper");
-    const textEl = document.getElementById("heroHiText");
-    if (!wrapper) return;
-
-    const now = Date.now();
-    if (!force && now - lastWaveAt < 1400) return;
-    lastWaveAt = now;
-
-    if (textEl) {
-        textEl.textContent = customMessage || heroGreetings[greetingIdx % heroGreetings.length];
-    }
-
-    wrapper.classList.remove("is-waving");
-    void wrapper.offsetWidth; // Reflow to cleanly restart CSS wave keyframes
-    wrapper.classList.add("is-waving", "show-bubble");
-
-    clearTimeout(waveStopTimer);
-    clearTimeout(bubbleHideTimer);
-
-    waveStopTimer = setTimeout(() => {
-        wrapper.classList.remove("is-waving");
-    }, 2650);
-
-    bubbleHideTimer = setTimeout(() => {
-        wrapper.classList.remove("show-bubble");
-    }, 4300);
-}
-
-window.addEventListener("load", function () {
-    const wrapper = document.getElementById("heroAvatarWrapper");
-    if (!wrapper) return;
-
-    // Greet visitor automatically right as Hero section reveals
-    setTimeout(() => {
-        triggerHeroWave("Hi! I'm Bhupesh", true);
-    }, 550);
-
-    // Wave again on hover or click/tap
-    wrapper.addEventListener("mouseenter", () => {
-        triggerHeroWave("Hi there! Glad you stopped by");
-    });
-
-    wrapper.addEventListener("click", () => {
-        greetingIdx = (greetingIdx + 1) % heroGreetings.length;
-        triggerHeroWave(heroGreetings[greetingIdx], true);
-    });
-
-    // Subtle friendly wave every 15s while visitor is at the top of the page
-    setInterval(() => {
-        if (document.visibilityState === "visible" && window.scrollY < 320 && !wrapper.classList.contains("is-waving")) {
-            triggerHeroWave("Hi! I'm Bhupesh");
-        }
-    }, 15000);
-});
-
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "Portfolio | Bhupesh Dubey — Senior DevOps Engineer";
-        $("#favicon").attr("href", "./assets/images/favicon.png?v=4");
-        if (window.scrollY < 350) {
-            triggerHeroWave("Welcome back!", true);
-        }
+        $("#favicon").attr("href", "./assets/images/favicon.png?v=5");
     } else {
         document.title = "Come Back To Bhupesh's Portfolio";
         $("#favicon").attr("href", "./assets/images/favhand.png");
