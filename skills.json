@@ -32,8 +32,8 @@
     "icon": "./assets/images/skills/bitbucket.svg"
   },
   {
-    "name": "GitHub Webhooks",
-    "icon": "./assets/images/skills/github.svg"
+    "name": "ClickHouse",
+    "icon": "./assets/images/skills/clickhouse.svg"
   },
   {
     "name": "GitLab CI & Runners",
@@ -76,7 +76,7 @@
     "icon": "./assets/images/skills/python.svg"
   },
   {
-    "name": "PHP",
-    "icon": "./assets/images/skills/php.svg"
+    "name": "Ansible",
+    "icon": "./assets/images/skills/ansible.svg"
   }
 ]
