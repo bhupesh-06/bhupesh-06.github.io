@@ -4,7 +4,7 @@ Personal portfolio website for **Bhupesh Dubey** (Senior DevOps Engineer — AWS
 
 ## 🌐 Live Portfolio
 
-👉 **https://bhupesh-06.github.io/Portfollio/** *(or **https://bhupesh-06.github.io/** if repo is named `bhupesh-06.github.io`)*
+👉 **https://bhupesh-06.github.io/**
 
 ## 🚀 Run Locally
 
@@ -18,8 +18,8 @@ Then open http://localhost:8080 in your browser.
 
 ## 📌 Highlights
 
-- **Hero & Custom Avatar**: Custom 3D developer avatar (`assets/images/hero.png`) and circular favicon (`assets/images/favicon.png`) paired with interactive Particle.js & Typed.js animations.
-- **About & Resume**: Corporate portrait (`assets/images/profile2.jpg`) with direct one-click resume download (`Bhupesh_Dubey_CV.pdf`).
+- **Hero & Custom Portrait**: Circular portrait (`assets/images/hero.png`) and favicon (`assets/images/favicon.png`) paired with interactive Particle.js & Typed.js animations.
+- **About & Resume**: Corporate portrait (`assets/images/profile2.jpg`) with direct resume access via [Google Drive](https://drive.google.com/file/d/1BZEDiVlKNoDuf2faDVnJTK79sSjsFn8Y/view?usp=sharing).
 - **Technical Skills**: 20 DevOps, Cloud, CI/CD, Container, Observability, and Security skills rendered dynamically from `skills.json` using crisp local SVG icons (`assets/images/skills/`).
 - **Featured Real-World Projects**: Filterable showcase (`projects/projects.json` & `projects/index.html`) covering **BuddyLoan** (FinTech), **Ananta Messaging** (MarTech Ads), **Whistle — Loop & Feed** (MarTech SaaS), **Dailyhunt** & **Josh** (Hyper-Scale Media), **Sparksation.ai** (AI Platform), and National 1st-Place Research.
 - **Key Achievements**: Dedicated section covering AWS-to-GCP migration, 80+ repo Bitbucket-to-GitLab migration, Jenkins & GitLab CI/CD Runners, LDAP & Self-Care IAM portal, SentinelOne EDR/CNS & Wazuh SIEM, and EKS/GKE + Argo CD GitOps.
