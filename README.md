@@ -1,6 +1,10 @@
-# Bhupesh Dubey — DevOps & Cloud Engineering Portfolio
+# Bhupesh Dubey — Senior DevOps & Cloud Engineering Portfolio
 
 Personal portfolio website for **Bhupesh Dubey** (Senior DevOps Engineer — AWS, GCP, Kubernetes, Terraform, CI/CD & Cloud Security).
+
+## 🌐 Live Portfolio
+
+👉 **https://codecraftlab-dev.github.io/portfollio/**
 
 ## 🚀 Run Locally
 
@@ -18,7 +22,8 @@ Then open http://localhost:8080 in your browser.
 - **About & Resume**: Corporate portrait (`assets/images/profile2.jpg`) with direct one-click resume download (`Bhupesh_Dubey_CV.pdf`).
 - **Technical Skills**: 20 DevOps, Cloud, CI/CD, Container, Observability, and Security skills rendered dynamically from `skills.json` using crisp local SVG icons (`assets/images/skills/`).
 - **Featured Real-World Projects**: Filterable showcase (`projects/projects.json` & `projects/index.html`) covering **BuddyLoan** (FinTech), **Ananta Messaging** (MarTech Ads), **Whistle — Loop & Feed** (MarTech SaaS), **Dailyhunt** & **Josh** (Hyper-Scale Media), **Sparksation.ai** (AI Platform), and National 1st-Place Research.
-- **Work Experience & Education**: Complete career timeline for **Verse Innovations Pvt Ltd**, **Valueleaf Services Pvt Ltd**, and **Greamio Technologies Pvt Ltd**, plus **MCA**, **B.Sc. IT**, and National Research Conference recognition.
+- **Key Achievements**: Dedicated section covering AWS-to-GCP migration, 80+ repo Bitbucket-to-GitLab migration, Jenkins & GitLab CI/CD Runners, LDAP & Self-Care IAM portal, SentinelOne EDR/CNS & Wazuh SIEM, and EKS/GKE + Argo CD GitOps.
+- **Work Experience & Education**: Complete career timeline for **Verse Innovations Pvt Ltd**, **Valueleaf Services Pvt Ltd**, and **Greamio Technologies Pvt Ltd**, plus **MCA** and **B.Sc. IT**.
 
 ## 📬 Contact
 
