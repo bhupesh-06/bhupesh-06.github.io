@@ -32,7 +32,7 @@ srtop.reveal('.experience .timeline .container',{interval: 300});
 document.addEventListener('visibilitychange', function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience | Portfolio Bhupesh Dubey";
-        $("#favicon").attr("href","../assets/images/favicon.png");
+        $("#favicon").attr("href","../assets/images/favicon.png?v=2");
     }
     else {
         document.title = "Come Back To Bhupesh's Portfolio";

@@ -213,13 +213,17 @@ header .navbar ul li a:hover {
 }
 .home .image img {
   width: 70%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
   margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: 0.4rem solid #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 32, 87, 0.25);
   cursor: pointer;
 }
 .home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 28px rgba(0, 32, 87, 0.4);
 }
 .home .content h2 {
   font-size: 5rem;

@@ -113,7 +113,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "Portfolio | Bhupesh Dubey — Senior DevOps Engineer";
-        $("#favicon").attr("href", "./assets/images/favicon.png");
+        $("#favicon").attr("href", "./assets/images/favicon.png?v=2");
     } else {
         document.title = "Come Back To Bhupesh's Portfolio";
         $("#favicon").attr("href", "./assets/images/favhand.png");
