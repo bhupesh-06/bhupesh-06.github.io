@@ -68,7 +68,7 @@ $(document).ready(function () {
         formData.append("_captcha", "false");
 
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 7000);
+        const timeoutId = setTimeout(() => controller.abort(), 12000);
 
         try {
             const response = await fetch("https://formsubmit.co/ajax/bhupesh.dubey.dev@gmail.com", {
@@ -88,10 +88,9 @@ $(document).ready(function () {
                 statusEl.textContent = "Message sent successfully! Thank you — I'll get back to you soon.";
                 form.reset();
             } else {
-                // Unactivated endpoint -> trigger standard POST in new tab to send FormSubmit activation email
-                HTMLFormElement.prototype.submit.call(form);
+                // Single request already triggered FormSubmit's activation email — do NOT re-submit (which invalidates the first token!)
                 statusEl.className = "form-status info";
-                statusEl.textContent = "One-time setup opened in a new tab — check bhupesh.dubey.dev@gmail.com and click 'Activate Form'!";
+                statusEl.textContent = "One-time setup: Open bhupesh.dubey.dev@gmail.com and click 'ACTIVATE FORM' in the LATEST FormSubmit email!";
                 form.reset();
             }
         } catch (err) {
